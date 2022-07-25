@@ -1,0 +1,6 @@
+Student(IdStd, name, tel, address)
+Faculty(Id, name)
+major(Id, name)
+teach
+subject
+register
