@@ -1,6 +1,6 @@
-Student(IdStd, name, tel, address)
-Faculty(Id, name)
-major(Id, name)
-teach
-subject
-register
+Student(idStd, name, tel, address, sex, idFaculty, idmajor, gpa)
+Faculty(id, name)
+major(id, name, idFaculty)
+teach(id, name, idsubject, section)
+subject(id, name, credit)
+register(semester, idStd, idsubject,  section)
